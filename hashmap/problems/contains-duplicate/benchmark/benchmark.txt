@@ -1,0 +1,8 @@
+Contains Duplicate Benchmark
+Input contains no duplicates.
+
+                      100           1000          10000          50000    
+--------------------------------------------------------------------------
+v1 O(n^2)               5 us        330 us      24641 us     299717 us
+v2 O(nlogn)             2 us          2 us         17 us         46 us
+v3 O(n)                24 us         54 us        386 us        894 us
