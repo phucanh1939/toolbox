@@ -1,0 +1,8 @@
+Two Sum Benchmark
+Input contains exactly one valid pair.
+
+                                          100           1000          10000          50000
+------------------------------------------------------------------------------------------
+v1 - AllPairs       O(n^2)               4 us         359 us       26912 us      342014 us
+v2 - HashMap        O(n)                41 us         103 us         590 us        1761 us
+v3 - SortedArray    O(nlogn)             4 us          40 us         528 us        1756 us
