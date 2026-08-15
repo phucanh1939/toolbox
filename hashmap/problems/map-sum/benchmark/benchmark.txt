@@ -1,0 +1,8 @@
+Map Sum Benchmark
+Insert all keys, then query a 3-character prefix for every key.
+
+                                          100           1000          10000          50000
+------------------------------------------------------------------------------------------
+v0 - Naive          O(NP)               98 us        8858 us      455527 us    12118656 us
+v1 - HashMap        O(L)               225 us        1192 us        3239 us       16208 us
+v2 - Trie           O(L)                17 us         125 us         325 us        1624 us
