@@ -1,6 +1,6 @@
 #include "TwoSum.h"
 
-#include "../../common/Benchmark.h"
+#include "../../../../common/Benchmark.h"
 
 #include <fstream>
 #include <iostream>

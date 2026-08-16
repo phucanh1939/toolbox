@@ -3,6 +3,6 @@ Input contains exactly one valid pair.
 
                                           100           1000          10000          50000
 ------------------------------------------------------------------------------------------
-v1 - AllPairs       O(n^2)               4 us         359 us       26912 us      342014 us
-v2 - HashMap        O(n)                41 us         103 us         590 us        1761 us
-v3 - SortedArray    O(nlogn)             4 us          40 us         528 us        1756 us
+v1 - AllPairs       O(n^2)               4 us         377 us       19442 us      347833 us
+v2 - HashMap        O(n)                10 us          98 us         415 us        1852 us
+v3 - SortedArray    O(nlogn)             4 us          43 us         316 us        1881 us

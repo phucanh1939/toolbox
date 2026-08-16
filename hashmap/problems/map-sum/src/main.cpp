@@ -1,6 +1,6 @@
 #include "MapSum.h"
 
-#include "../../common/Benchmark.h"
+#include "../../../../common/Benchmark.h"
 
 #include <fstream>
 #include <iostream>
